@@ -1,0 +1,1157 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\headheight 2cm
+\headsep 2cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+HRule}{
+\backslash
+rule{
+\backslash
+linewidth}{0.5mm}}       
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+center        
+\end_layout
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+--------- 
+\end_layout
+
+\begin_layout Plain Layout
+
+%	HEADING SECTIONS 
+\end_layout
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------      
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsc{
+\backslash
+LARGE Instituto Tecnológico de Buenos Aires}
+\backslash
+
+\backslash
+[2cm]  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsc{
+\backslash
+Large 22.85 Sistemas de Control}
+\backslash
+
+\backslash
+[1.5cm]  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsc{
+\backslash
+large Trabajo Práctico de Laboratorio $N^o~4$ }
+\backslash
+
+\backslash
+[0.5cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+--------- 
+\end_layout
+
+\begin_layout Plain Layout
+
+%	TITLE SECTION 
+\end_layout
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------      
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+HRule 
+\backslash
+
+\backslash
+[0.5cm] 
+\end_layout
+
+\begin_layout Plain Layout
+
+{ 
+\backslash
+huge Controlador PID}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[0.4cm]  
+\backslash
+HRule 
+\backslash
+
+\backslash
+[2cm]       
+\end_layout
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+--------- 
+\end_layout
+
+\begin_layout Plain Layout
+
+%	AUTHOR SECTION 
+\end_layout
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------      
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{minipage}{0.4
+\backslash
+textwidth} 
+\backslash
+begin{flushleft} 
+\backslash
+large 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Grupo 5:}
+\backslash
+
+\backslash
+		 [.3cm] 
+\end_layout
+
+\begin_layout Plain Layout
+
+Matías 
+\backslash
+textsc{Larroque}
+\backslash
+
+\backslash
+ Leg.
+ 56597
+\backslash
+
+\backslash
+  [.3cm] 
+\end_layout
+
+\begin_layout Plain Layout
+
+Lucero Guadalupe 
+\backslash
+textsc{Fernandez}
+\backslash
+
+\backslash
+ Leg.
+ 57485
+\backslash
+
+\backslash
+  [.3cm] 
+\end_layout
+
+\begin_layout Plain Layout
+
+Manuel 
+\backslash
+textsc{Mollón}
+\backslash
+
+\backslash
+ Leg.
+ 58023 
+\backslash
+
+\backslash
+  [.3cm] 
+\end_layout
+
+\begin_layout Plain Layout
+
+Ezequiel 
+\backslash
+textsc{Vijande}
+\backslash
+
+\backslash
+ Leg.
+ 58057
+\backslash
+
+\backslash
+  [.3cm] 
+\end_layout
+
+\begin_layout Plain Layout
+
+Tomás Agustín 
+\backslash
+textsc{González Orlando}
+\backslash
+
+\backslash
+ Leg.
+ 57090
+\backslash
+
+\backslash
+  [.3cm] 
+\end_layout
+
+\begin_layout Plain Layout
+
+Robin 
+\backslash
+textsc{Bertrand}
+\backslash
+
+\backslash
+ Leg.
+ 61739
+\backslash
+
+\backslash
+  [.3cm] 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushleft} 
+\backslash
+end{minipage} ~ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{minipage}{0.4
+\backslash
+textwidth} 
+\backslash
+begin{flushright} 
+\backslash
+large 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emph{Profesor:} 
+\backslash
+
+\backslash
+ [.3cm] 
+\end_layout
+
+\begin_layout Plain Layout
+
+Victor Gustavo  
+\backslash
+textsc{Nasini}
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+Cristian Alejo 
+\backslash
+textsc{Zujew} 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushright} 
+\backslash
+end{minipage}
+\backslash
+
+\backslash
+[2cm]      
+\end_layout
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+--------- 
+\end_layout
+
+\begin_layout Plain Layout
+
+%	DATE SECTION 
+\end_layout
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------      
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vfill {
+\backslash
+large Entregado: 27 de Noviembre de 2019}
+\backslash
+
+\backslash
+[2cm]      
+\backslash
+vfill       
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introducción
+\end_layout
+
+\begin_layout Standard
+El objetivo de este Trabajo Practico es el de controlar la distancia de
+ un carrito a un obstáculo mediante un PID (controlador proporcional, integral
+ y derivativo) discreto.
+ Este control se hace mediante un microcontrolador Arduino que muestrea
+ la tensión analógica recibida del fototransistor al frente del carrito
+ y devuelve la tensión necesaria para realizar la corrección.Este ultimo
+ se hace gracias al control de un puente H por la salida que define la velocidad
+ del carrito.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Carrito3d.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Foto del carrito
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Definición del sistema 
+\end_layout
+
+\begin_layout Standard
+El sistema se define de la siguiente manera:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/carritofisico.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema físico del carrito
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para poder controlar el sistema, debemos primero debemos encontrar su función
+ transferencia.
+ Por eso definimos las siguientes variables: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $J_{m}$
+\end_inset
+
+: Inercia del rotor del motor.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $J_{c}$
+\end_inset
+
+: Inercia del carrito.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\omega_{m}$
+\end_inset
+
+: Velocidad angular del eje del motor.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\omega_{r}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+: Velocidad angular de las ruedas del carrito.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{m}$
+\end_inset
+
+: Torque entregado por el motor.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $T_{r}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+: Torque entregado por las ruedas.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r$
+\end_inset
+
+: Radio de las ruedas.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $J_{r}$
+\end_inset
+
+: Inercia de la rueda.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M$
+\end_inset
+
+: Masa carrito (sin ruedas).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m$
+\end_inset
+
+: Masa de las ruedas.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M_{t}$
+\end_inset
+
+: Masa total del carrito.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $NN_{1}N_{2}$
+\end_inset
+
+: Relación de multiplicación.
+\end_layout
+
+\begin_layout Standard
+En esta parte, queremos expresar el desplazamiento lineal del carrito en
+ función de Ea del motor.
+\end_layout
+
+\begin_layout Standard
+La inercia equivalente sobre las ruedas del carrito es : 
+\begin_inset Formula $J_{eq}=J_{c}+N^{2}.J_{m}$
+\end_inset
+
+ (1)
+\end_layout
+
+\begin_layout Standard
+Torque de la rueda : 
+\begin_inset Formula $T_{r}=N.T_{r}=J_{eq}.\omega_{r}.s$
+\end_inset
+
+ (2)
+\end_layout
+
+\begin_layout Standard
+Ecuación eléctrica del motor : 
+\begin_inset Formula $E_{a}=I_{a}R_{a}+K_{a}.N.\omega_{r}$
+\end_inset
+
+ (3)
+\end_layout
+
+\begin_layout Standard
+Donde 
+\begin_inset Formula $I_{a}=\frac{Tm}{Km}=\frac{J_{eq}.\omega_{r}.s}{N.K_{m}}$
+\end_inset
+
+ con (2), (4)
+\end_layout
+
+\begin_layout Standard
+Al final en (3), obtenemos con (4) : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $E_{a}=\omega_{r}.\frac{R_{a}.J_{eq}}{N.K_{m}}.\left[s+\frac{K_{b}N^{2}.K_{m}}{R_{a}.J_{eq}}\right]$
+\end_inset
+
+con 
+\begin_inset Formula $\omega_{r}=s.\theta_{r}$
+\end_inset
+
+ y  
+\begin_inset Formula $Y=\theta_{r}.r$
+\end_inset
+
+ tenemos :
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+\frac{Y(s)}{E_{a}(s)}=\frac{N.K_{m}.r}{R_{a}.J_{eq}.s\left[s+\frac{K_{b}.N^{2}.K_{m}}{R_{a}.J_{eq}}\right]}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como se puede ver de la transferencia anterior, la planta es un sistema
+ de segundo orden con un polo en el origen.
+\end_layout
+
+\begin_layout Section
+PID
+\end_layout
+
+\begin_layout Standard
+Un controlador PID permite definir las características temporales deseadas
+ para la respuesta del sistema a lazo cerrado así como también el error
+ en régimen permanente.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/pidController.png
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema de un proceso controlado mediante PID
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La ecuación integro-diferencial correspondiente al controlador PID es:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\begin{equation}
+u(t)=K_{p}e(t)+K_{i}\intop_{-\infty}^{t}e(\tau)d\tau+K_{d}\frac{de}{dt}(t)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde 
+\begin_inset Formula $e(t)$
+\end_inset
+
+ es el error del proceso que es realimentado al controlador y 
+\begin_inset Formula $u(t)$
+\end_inset
+
+ es la salida del controlador.En definitiva el controlador PID agrega dos
+ ceros y un polo en el origen a la transferencia del sistema a lazo abierto.
+ El polo en el origen agregado es debido al termino integral (
+\begin_inset Formula $K_{i}$
+\end_inset
+
+) y sirve para mejorar el error en régimen permanente del proceso al aumentar
+ su orden.Asimismo este termino también agrega un cero, este se coloca lo
+ suficientemente cerca del origen como para no afectar la fase del proceso.El
+ termino derivativo (
+\begin_inset Formula $K_{d}$
+\end_inset
+
+) agrega un cero al proceso que sirve para cambiar el lugar de raíces del
+ sistema para permitir tener la constelación de polos deseada, y así las
+ características temporales deseadas.Finalmente, el termino proporcional
+ (
+\begin_inset Formula $K_{p}$
+\end_inset
+
+) es la ganancia necesaria para mover los polos en el lugar de raíces con
+ el fin de satisfacer la respuesta temporal deseada a lazo cerrado.
+\end_layout
+
+\begin_layout Standard
+Para este trabajo practico se implemento el controlador por medio de un
+ Arduino por lo que se utilizo la versión discreta de PID:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\begin{equation}
+u(nT)=K_{p}e(nT)+K_{i}T\stackrel[k=-\infty]{n}{\sum e(kT)}+K_{d}\frac{e(nT)-e(nT-T)}{T}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Ziegler-Nichols
+\end_layout
+
+\begin_layout Standard
+Al no conocer los valores numéricos de las variables que definen la planta
+ no se tienen las ubicaciones exactas de los polos y ceros por lo que no
+ es posible calcular de forma teórica los valores óptimos de 
+\begin_inset Formula $K_{p},K_{I}$
+\end_inset
+
+ y 
+\begin_inset Formula $K_{d}$
+\end_inset
+
+.
+ El método de Ziegler-Nichols consiste en un método heuristico para determinar
+ los valores de dichas constantes sin saber la ubicación de los polos y
+ ceros de la ganancia a lazo abierto de la planta.
+\end_layout
+
+\begin_layout Standard
+El método es simple, en primer lugar se toman:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $K_{I}=K_{d}=K_{p}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Luego se va incrementando 
+\begin_inset Formula $K_{p}$
+\end_inset
+
+ hasta llegar a tener una oscilación constante en la respuesta del sistema.El
+ valor de 
+\begin_inset Formula $K_{p}$
+\end_inset
+
+ para el que ocurre esto se denomina 
+\begin_inset Formula $K_{u}$
+\end_inset
+
+ y el periodo de la oscilación se denomina 
+\begin_inset Formula $T_{u}$
+\end_inset
+
+.Con dichos valores medidos ya se tiene toda la información necesaria para
+ elegir las constantes del sistema.Los valores para las constantes están
+ dados en la siguiente tabla:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Constantes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $K_{p}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $K_{I}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $K_{d}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Valores
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.6K_{u}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.2\frac{K_{u}}{T_{u}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{3K_{u}T_{u}}{40}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Valores de las constantes de PID según Ziegler-Nichols
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Implementación y resultados
+\end_layout
+
+\begin_layout Section
+Conclusión
+\end_layout
+
+\begin_layout Standard
+A partir de la realización de este trabajo practico se pudo determinar que
+ es posible controlar una planta de segundo orden cuya transferencia se
+ desconoce, utilizando un controlador PID.
+ Dicho control puede realizarse determinando las constantes necesarias mediante
+ métodos heuristicos y empíricos como el de Ziegler-Nichols.Asimismo, un
+ controlador PID es capaz de mejorar el error en régimen permanente de una
+ planta así como también sus características temporales.
+\end_layout
+
+\end_body
+\end_document
